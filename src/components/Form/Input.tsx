@@ -23,17 +23,3 @@ export function Input({ name, label, ...rest }: InputProps) {
     </FormControl>      
   );
 }
-
-{/* <FormControl>
-  <Input
-    id='2'
-    name="password"
-    type="password"
-    focusBorderColor="green.700"
-    backgroundColor="white"
-    variant="outline"
-    placeholder="CPF"
-    _placeholder={{ color: "inherit" }}
-    size="lg"
-  />
-</FormControl> */}

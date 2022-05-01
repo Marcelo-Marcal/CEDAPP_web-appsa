@@ -12,8 +12,8 @@ export default function SignIn() {
     >
       <Flex
         as="form"
-        width="100%"
-        maxWidth={360}
+        width="90%"
+        maxWidth={350}
         background="#f1f1f1"
         padding="8" // * 4 = resultado em px
         borderRadius={8}
@@ -21,7 +21,7 @@ export default function SignIn() {
       >
         <Flex
           justifyContent="center"
-          h="45px"
+          h="35px"
           fontSize="23"
           color="#007565"
         >Faça seu login
@@ -33,11 +33,14 @@ export default function SignIn() {
             <Stack
               spacing={2}
               direction="column"
+              borderWidth="1px"
+              borderColor="#f1f1f1"
             >
               <Flex
+                height="5px"
                 padding="1px"
                 direction="column"
-                marginTop="5px"                
+                marginTop="5px"
               >
               </Flex>
               <Radio
@@ -80,6 +83,3 @@ export default function SignIn() {
     </Flex>
   )
 }
-
-// <h1>SisLab - Sistema de Gerenciamento Laboratorial</h1>
-// <h1>CEDAPP – Centro de Diagnostico Anatomopatológico</h1>
