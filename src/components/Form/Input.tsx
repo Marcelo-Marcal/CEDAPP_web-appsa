@@ -11,7 +11,6 @@ export function Input({ name, label, ...rest }: InputProps) {
         <ChakraInput
           id={name}
           name={name}
-          // type="number"
           focusBorderColor="#007565"
           backgroundColor="white"
           variant="outline"

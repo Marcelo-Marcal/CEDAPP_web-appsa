@@ -1,4 +1,4 @@
-import { Box, Flex, Stack, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 export function Sidebar() {
   return (
@@ -16,7 +16,6 @@ export function Sidebar() {
         margin="center"
       >
         <Flex
-          as="form"
           width="90%" // largura 90% da div
           maxWidth={1080}
           background="#f1f1f1"

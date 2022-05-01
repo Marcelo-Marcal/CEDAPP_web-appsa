@@ -30,7 +30,7 @@ export function Header() {
               marginX="-10px"
               boxSize='70px'
               objectFit='cover'
-              src={logo03}
+              srcSet="logo03"
               alt='Dan Abramov'
             />  
           </Stack>
