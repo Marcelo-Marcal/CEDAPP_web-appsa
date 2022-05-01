@@ -1,5 +1,4 @@
 import { extendTheme } from '@chakra-ui/react'
-// import { GlobalStyles } from './global'
 
 
 export const theme = extendTheme({
